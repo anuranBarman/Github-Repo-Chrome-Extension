@@ -1,0 +1,14 @@
+{
+  "manifest_version": 2,
+
+  "name": "Github Repo",
+  "description": "This extension allows to view my Github repo and browse to it in one click",
+  "version": "1.0",
+  "browser_action": {
+    "default_icon": "icon.png",
+    "default_popup": "index.html"
+  },
+  "permissions":[
+    "https://api.github.com/"
+  ]
+}
